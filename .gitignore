@@ -19,6 +19,7 @@ target/
 *.iml
 *.ipr
 .DS_Store
+源码
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
