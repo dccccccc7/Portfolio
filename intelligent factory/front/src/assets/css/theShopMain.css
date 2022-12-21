@@ -1,0 +1,71 @@
+#theBaseMainBox {
+    display: flex;
+    /*background-color: gray;*/
+    height: 918px;
+    flex-direction: column;
+    width: auto;
+}
+
+#theMainTable th {
+    padding: 10px 20px !important;
+    /*background-color: aliceblue;*/
+    font-size: large;
+    /*border: 1px solid red;*/
+}
+
+#theMainTable td {
+    padding: 0 20px !important;
+    /*border: 1px solid blue;*/
+
+}
+
+#theBaseHeader {
+    /*background-color: aliceblue;*/
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+#theBaseMain {
+    /*background-color: beige;*/
+    height: 100%;
+
+    width: inherit;
+    padding: 50px 80px;
+
+}
+
+.theLeftHeaderInput {
+    display: flex;
+    height: 40px;
+    width: 300px;
+    /*justify-content: space-between;*/
+}
+
+#theLeftBase {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto
+}
+
+#theRightBase {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.el-dropdown-link {
+    cursor: pointer;
+    color: #409EFF;
+}
+
+.el-icon-arrow-down {
+    font-size: 12px;
+    /*size: ;*/
+}
